@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    background-color: rosybrown;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+    min-height: 100vh;
+    padding: 0;   
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    flex: 2;
+    padding: 0px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 65px; 
+}
+
+main {
+    display: flex;
+    flex: 20;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;  
+}
+
+main p {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+main h3 {
+    font-size: 30px;
+}
+
+.choices {
+    background-color: rgb(139, 108, 108);
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: space-evenly; */   
+}
+
+
+#outcome {
+    background-color: rgb(139, 108, 108);
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2px;;
+}
+
+#outcome button {
+    padding: 15px;
+    background-color: rgb(112, 95, 112);
+    border-radius: 5px 20px 5px;
+}
+
+#outcome button:hover {
+    width: 130px;
+}
+
+#outcome h2, h3 {
+    font-size: 35px;
+}
+
+@media (min-device-width: 600px) {
+    img {
+        width: 130px;
+    }
+    img:hover {
+        width: 145px;
+    }
+}
+
+@media (max-device-width: 600px) { 
+    img {
+        width: 85px;  
+    }
+    img:hover {
+        width: 95px;
+    }
+}
+
+@media (max-device-width: 485px) { 
+   .choices {
+       flex-direction: column;
+   }
+    
+}
+
+footer {
+    flex:0.2;
+    padding: 20px;
+}
