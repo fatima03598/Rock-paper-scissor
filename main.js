@@ -16,7 +16,7 @@
             $("#outcome h2").text("The computer also picked Rock!: ");
             $("#outcome h3").text("No one won ");
         } else if ( result === 'scissor' ) {
-            $("#outcome h2").text("The computer picked Scisoor:");
+            $("#outcome h2").text("The computer picked Scissor:");
             $("#outcome h3").text("You won! Go celebrate! ");
         }else {
             $("#outcome h2").text(" The computer picked Paper: ");
@@ -33,7 +33,7 @@
             $("#outcome h2").text(" The computer picked Rock: ");
             $("#outcome h3").text(" Sadly You lost :( ");   
         } else if ( result === 'scissor' ) {
-            $("#outcome h2").text("The computer also picked Scisor!: ");
+            $("#outcome h2").text("The computer also picked Scissor!: ");
             $("#outcome h3").text("No one won ");
         }else {
             $("#outcome h2").text("The computer picked Paper:");
@@ -67,7 +67,7 @@
             $("#outcome h2").text("The computer picked Rock:");
             $("#outcome h3").text("You won! Go celebrate! ");            
         } else if ( result === 'scissor' ) {
-            $("#outcome h2").text("The computer picked Scisoor:");
+            $("#outcome h2").text("The computer picked Scissor:");
             $("#outcome h3").text("You won! Go celebrate! ");
         }else {
             $("#outcome h2").text("The computer picked Paper:");
