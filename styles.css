@@ -6,10 +6,12 @@ body {
     min-height: 100vh;
     padding: 0;   
 }
+
 header {
     flex: 4;
     background-color: violet;
 }
+
 main {
     display: flex;
     background-color: teal;
@@ -22,7 +24,7 @@ main {
    
 }
 
-section {
+.choices {
     background-color: tomato;
     display: flex;
     flex-direction: row;
@@ -30,12 +32,19 @@ section {
     padding: 10px;
     justify-content: space-evenly;
     align-items: center;
-    /* justify-content: space-evenly; */
- 
-    
-    
-    
+    /* justify-content: space-evenly; */   
 }
+
+#outcome {
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-device-width: 600px) {
     img {
         width: 130px;
@@ -43,22 +52,24 @@ section {
     img:hover {
         width: 145px;
     }
-  }
-  @media (max-device-width: 600px) { 
-img {
-    width: 85px;  
 }
-img:hover {
-    width: 95px;
-}
-  }
+
+@media (max-device-width: 600px) { 
+    img {
+        width: 85px;  
+    }
+    img:hover {
+        width: 95px;
+    }
+    }
 
 @media (max-device-width: 485px) { 
    section {
        flex-direction: column;
    }
     
-  }
+}
+
 footer {
     flex:1;
     background-color: white;
